@@ -1,0 +1,479 @@
+
+
+:root {
+  --color-primary: #da1d50; /* brand color */
+  --grid-maxWidth: 108rem; /* max container width 1080px */
+}
+p {
+    text-align: center;
+    text-decoration: none;
+    color: blacks;
+}
+body{
+    margin: 0px;
+    border: 0px;
+    top: 0px;
+    background-color: white;
+    font-family: 'Konkhmer', sans-serif;
+
+}
+.prj{
+    margin-bottom: 20px!important;
+    margin-top: 20px!important;
+}
+@font-face {
+    font-family: 'Konkhmer';
+    src: url('font/KonkhmerSleokchher-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{color:rgb(0, 0, 0)
+;width: 100%!important;
+    
+}
+#label{
+    text-decoration: underline;
+    width: 32vh;
+    font-size: 4.5vh;
+}
+.navrotulo{
+    display: flex;
+    width: 43vh;
+    text-align: center;
+    border-left: 15px;
+}
+#quadrado{
+    width: 5px;
+    border-right:  solid rgb(45, 41, 49);
+    padding-left: 0px ;
+    margin: 20px 0px 20px 2px;
+
+
+}
+.rotulo {
+    font-family: 'Konkhmer', sans-serif;
+    text-decoration: none;
+    margin:auto ;
+    text-transform: capitalize!important;
+    color: rgb(0, 0, 0) ;
+}
+.rotulo:hover{
+    background-color: white!important;
+    color: rgb(60, 60, 60);
+
+}
+.comeco{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 102%;
+}
+#div {
+    display: flex!important;
+    flex-wrap: nowrap;
+    width: 90%;
+}
+#div2{
+    display:flex;
+    width: 100%;
+}
+#resume{
+   
+    text-align: justify;
+    justify-content: center ;
+    width: 100%;
+   
+    margin:auto 1% auto 1% ;
+    padding: 4vh;
+   
+}
+.bold{
+    width: 100%;
+    color: rgb(45, 41, 49);
+    font-size: larger;
+}
+#pj{
+    text-decoration: underline!important;
+}
+#sm{text-decoration: underline;}
+.h1{
+    
+    margin-left: 2%;
+    color:rgb(0, 0, 0) ;
+    font-family: 'Konkhmer', sans-serif;
+    font-size: 2.5vw!important;
+    display: flex;
+   
+   
+}
+#h1title{
+    text-align: center;
+    margin: auto 1% auto 1%;
+    width: 100%;
+}
+#p2{
+    width: 60% ;
+    margin: auto;
+}
+.h2{
+    text-decoration: none;
+    margin-left: 2%;
+    color:rgb(0, 0, 0) ;
+    font-family: 'Konkhmer', sans-serif;
+    font-size: 5vh;
+    
+   
+    margin: auto 8px;
+}
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+   width: 60%;
+   height: 40%;
+   margin: auto;
+      color:rgb(78, 75, 81) ;
+   padding: 1.4%;
+   border-radius: 10PX;
+   justify-content: center;
+   text-align: center;
+}
+img#selfie{
+    text-align: center;
+    border-radius: 60%;
+    width:65%;
+    height: 48  vh;
+    margin: 10%;
+    border: 4px solid black;
+    filter: grayscale(0.9);
+   
+}
+a{
+    margin: 2%;
+}
+
+.icon{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+}
+#logo{
+    width: 8vh;
+    height: 8vh;
+   margin: auto 4vh auto 2vh;
+}
+
+.selfie{
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    
+}
+.imgcontainer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  
+    
+}
+img{
+    margin: 10px!important;
+}
+.img{
+     
+    width: 90%;
+    border-radius: 2%;
+    height: 200px;
+    border: px solid black;
+    
+}
+.fundo{
+    justify-content: center ;
+    text-align: center;
+    display: flex;
+    
+    margin-top: 2%;
+}
+/*---------------------PROJETOS-------------------------*/
+.pjtext{
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.txt{
+    margin:3% auto 3% auto;
+    
+   text-align: justify;
+   width: 80%;
+}
+.progresso{
+    color: rgb(45, 45, 114);
+}
+.Concluido{
+    color: rgb(51, 124, 63);
+}
+.btn{
+   
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Konkhmer', sans-serif;
+    font-weight: bolder;
+    outline: none;
+    border: 0px;
+    padding: 0;
+    border-radius: 50%;
+    margin: auto 2vh ;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+.btncontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#txt2{
+    display:none;
+}
+#form2{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    text-align: center;
+    align-items: center;
+  }
+#titulo1{
+    margin: 1.2%;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.prj{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin: auto;
+}
+.repositorio{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+   width: 30%;
+   
+  
+    font-family: 'Konkhmer', sans-serif;
+}
+#menu{
+    display: none;
+}
+.checkbtn{
+    margin: auto;
+    width: 20%;
+}
+.form-check-label{
+    margin: 0px 1%;
+    width: 100%!important;}
+    #flexSwitchCheckChecked{margin: 0% 6%;}
+    #flexSwitchCheckDefault{margin: 0% 6%;}
+
+.form-switch .form-check-input {
+    height: 24px;
+    
+    width: 48px;
+    
+}
+.form-check{
+    padding: 0px!important;
+}
+.form-switch .form-check-input:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(0,0,0,0.25)'/></svg>");
+}
+.form-switch .form-check-input:checked {
+    background-color: #000000;
+    border-color: #ffffff;
+    border: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+    
+@media (max-width:950px){
+    .img{
+        height: 150px;
+    }
+    #h1title{
+        font-size: 24px!important;
+    }
+    #p2{
+        width: 80%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .h2{
+        width: 27vw!important;
+        font-size: 160%;
+    }
+    .navrotulo{
+        margin-left: 0px;
+    }
+}
+@media (max-width:850px){
+    
+    #selfie{
+        width: 60%;
+       
+    }
+    .fundo{
+        flex-wrap: wrap;
+    }
+    #div{
+        justify-content: space-between;
+    }
+
+    a#navbarDropdownMenuLink{
+        margin: auto!important;
+        height: 70px;
+    }
+    .repositorio{
+        width: 100%!important;
+        font-size: 15px;
+        margin: 5px!important;
+        padding: 5px;
+    }
+    .btncontainer{
+        display: block;
+    }
+    .comeco.card{
+        height: 83px;
+        padding: auto;
+        align-items: center;
+        align-content: center;
+    }
+    #form2{
+       
+        width: 100px;
+        margin: 2px auto ;
+    }
+    #menu{
+        display: block;
+        width: 120px;
+        height: 70px;
+        margin: auto;
+    }
+
+    .btn{
+        padding: 0px;
+    }
+    #switch{
+        display: none;
+    }
+    .navrotulo{
+        display: none;
+    }
+    .dropdown-menu.show{
+        width: 150px;
+        height: 97px;
+    }   
+    #switch2{
+        width: 120px;
+        margin: 6px auto;
+    }
+    p.form-check-label{
+        font-size: 10px;
+    }
+    li#menu{
+        justify-content: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .h2{
+        width: 87%!important;
+        
+    }
+    #div2{
+        width: 65%;
+    }
+    #div{
+        height: 70px;
+        align-items: center;
+    }
+    #menuimg{
+        height: 45px;
+    }
+}
+@media (max-width:750px){
+    #logo{
+        display: none;
+    }
+    li{
+      align-items: center;
+      text-align: center;
+    }
+    #form2{
+      margin: 0px;
+      width: 120px;
+    }
+    .dropdown-menu{
+      padding: 3px 6px!important;
+    }
+    .form-check-input{
+      width: 40px!important;
+      height: 20px!important;
+      margin: 0px 8px !important;
+    }
+    .rotulo{
+      width: 100%!important;
+      display: block;
+      border: 3px!important;
+    }
+    .rotulo:hover{
+      
+      background-color: #2b2b2c!important;
+      color: white;
+    }
+  }
+@media (max-width: 450px){
+    p{
+        width: 100%;
+        font-size: 12px;
+        margin: auto;
+    }
+    li{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .h2{
+        font-size: 21px;
+        margin: 0px;
+        width: 100%!important;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .repositorio{
+        width: 100%!important;
+        font-size: 15px;
+        margin: 5px!important;
+        padding: 5px;
+    }
+    .btncontainer{
+        display: block;
+    }
+}
